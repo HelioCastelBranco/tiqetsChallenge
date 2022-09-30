@@ -1,0 +1,17 @@
+{
+    "ignoreTestFiles": [
+        "*.md"
+    ],
+    "defaultCommandTimeout": 9000,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true,
+        "pretty": true
+    },
+    "screenshotsFolder": "mochawesome-report/snapshots"
+}

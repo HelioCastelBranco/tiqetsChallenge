@@ -1,0 +1,132 @@
+[
+  {
+    "description": "    As a user I want to add a Picked Combination and run a booking procedure",
+    "keyword": "Feature",
+    "name": "Hand Picked Combinations",
+    "line": 4,
+    "id": "hand-picked-combinations",
+    "tags": [
+      {
+        "name": "@handPickedCombinations",
+        "line": 1
+      },
+      {
+        "name": "@sprint7",
+        "line": 2
+      }
+    ],
+    "uri": "tiqetsHandPickedComb.feature",
+    "elements": [
+      {
+        "id": "hand-picked-combinations;validate-hand-picked-combinations",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Validate Hand-picked Combinations",
+        "tags": [
+          {
+            "name": "@handPickedCombinations",
+            "line": 1
+          },
+          {
+            "name": "@sprint7",
+            "line": 2
+          },
+          {
+            "name": "@tiqets_home_page",
+            "line": 7
+          },
+          {
+            "name": "@search_procedure",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "already on Tiqets page",
+            "result": {
+              "status": "undefined",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "confirm that Hand-picked Combinations field is active",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I click on SUMMIT One Vanderbilt and The Museum of Modern Art option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "all details of this option appears correctly",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "hand-picked-combinations;validate-hand-picked-combinations’s-flow",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Validate Hand-picked Combinations’s flow",
+        "tags": [
+          {
+            "name": "@handPickedCombinations",
+            "line": 1
+          },
+          {
+            "name": "@sprint7",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "already on ‘Search Museums & Attractions’ page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on BOOK NOW button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "select a date",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
